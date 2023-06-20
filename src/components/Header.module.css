@@ -1,0 +1,35 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5.5rem;
+    padding: 0 1.5rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 2px solid var(--color);
+
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 2.5rem;
+
+    background-color: var(--background-color);
+    z-index: 100;
+}
+
+.header a {
+    transform: color .3s;
+}
+
+.header a:hover {
+    color: var(--green);
+}
+
+.themeButton {
+    border: none;
+    background: transparent;
+    color: var(--color);
+    cursor: pointer;
+}
